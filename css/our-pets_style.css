@@ -252,10 +252,18 @@ footer .local {
   .container {
     max-width: 95%;
   }
-
+}
+@media (max-width: 1136px) {
   .flex-ourfriends {
-    justify-content: space-around;
+     justify-content: space-around;
   }
+  .flex-ourfriends>div:nth-child(7) {
+    display: none;
+  }
+  .flex-ourfriends>div:nth-child(8) {
+    display: none;
+  }
+
 }
 @media (max-width: 950px) {
   footer .flex-wrapper > div:last-child {
@@ -283,8 +291,19 @@ footer .local {
   .flex-ourfriends {
     justify-content: space-around;
   }
+  .flex-ourfriends>div:nth-child(4) {
+    display: none;
+  }
+  .flex-ourfriends>div:nth-child(5) {
+    display: none;
+  }
+  .flex-ourfriends>div:nth-child(6) {
+    display: none;
+  }
 
   footer .flex-wrapper > div {
     margin: auto;
   }
 }
+
+
